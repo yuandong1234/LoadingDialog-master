@@ -7,21 +7,30 @@
 
 
     <Button
+        android:text="窗口创建View"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="142dp" />
+
+    <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="125dp"
         android:text="帧动画"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="自定义LoadingDialog"
-        android:layout_marginEnd="91dp"
-        android:layout_marginTop="21dp"
-        android:layout_below="@+id/button"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
 
 </RelativeLayout>
