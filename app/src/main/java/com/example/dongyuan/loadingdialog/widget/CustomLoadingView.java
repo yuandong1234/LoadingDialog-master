@@ -11,7 +11,7 @@ import android.view.View;
  * Created by dong.yuan on 2017/5/23.
  */
 
-public class CustomDialog extends View {
+public class CustomLoadingView extends View {
 
     private float scale;    //像素密度
     private float height;     //控件高度
@@ -25,11 +25,11 @@ public class CustomDialog extends View {
     private boolean CIRCLE_R2_STATE = true;    //球2状态，true缩小false增大
     private boolean CIRCLE_R3_STATE = true;    //球3状态，true缩小false增大
 
-    public CustomDialog(Context context) {
+    public CustomLoadingView(Context context) {
       this(context,null);
     }
 
-    public CustomDialog(Context context, AttributeSet attrs) {
+    public CustomLoadingView(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(context);
 

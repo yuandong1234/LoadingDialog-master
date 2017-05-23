@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:background="@drawable/drawable_bg_loading_dialog">
-    <com.example.dongyuan.loadingdialog.widget.CustomDialog
+    <com.example.dongyuan.loadingdialog.widget.CustomLoadingView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"/>

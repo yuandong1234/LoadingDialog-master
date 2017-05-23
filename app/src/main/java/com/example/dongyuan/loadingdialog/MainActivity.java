@@ -4,17 +4,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
 import com.example.dongyuan.loadingdialog.util.ScreenUtils;
-import com.example.dongyuan.loadingdialog.widget.CustomDialog;
+import com.example.dongyuan.loadingdialog.widget.CustomLoadingView;
 import com.example.dongyuan.loadingdialog.widget.FrameLoadingDialog;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private FrameLoadingDialog dialog1;
-    private CustomDialog dialog2;
+    private CustomLoadingView dialog2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
